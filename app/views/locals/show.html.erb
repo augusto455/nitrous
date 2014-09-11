@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>C mesa:</strong>
+  <%= @local.c_mesa %>
+</p>
+
+<p>
+  <strong>C user:</strong>
+  <%= @local.c_user %>
+</p>
+
+<p>
+  <strong>N user:</strong>
+  <%= @local.n_user %>
+</p>
+
+<%= link_to 'Edit', edit_local_path(@local) %> |
+<%= link_to 'Back', locals_path %>
